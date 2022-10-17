@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Testrunner1(failed)" parallel="tests">
+    <classes>
+      <class name="comm.crm.Organization.Vtigerrr">
+        <methods>
+          <include name="AT"/>
+          <include name="BC"/>
+          <include name="BT"/>
+          <include name="AC"/>
+          <include name="BM"/>
+          <include name="AM"/>
+          <include name="createOrganization"/>
+        </methods>
+      </class> <!-- comm.crm.Organization.Vtigerrr -->
+      <class name="comm.crm.Product.Product">
+        <methods>
+          <include name="AT"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="BM"/>
+          <include name="AM"/>
+        </methods>
+      </class> <!-- comm.crm.Product.Product -->
+    </classes>
+  </test> <!-- Testrunner1(failed) -->
+  <test name="Testrunner2(failed)" parallel="tests">
+    <classes>
+      <class name="comm.crm.Organization.Vtigerrr">
+        <methods>
+          <include name="AT"/>
+          <include name="BC"/>
+          <include name="BT"/>
+          <include name="AC"/>
+          <include name="BM"/>
+          <include name="AM"/>
+        </methods>
+      </class> <!-- comm.crm.Organization.Vtigerrr -->
+      <class name="comm.crm.Product.Product">
+        <methods>
+          <include name="AT"/>
+          <include name="deletproduct"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="BM"/>
+          <include name="AM"/>
+        </methods>
+      </class> <!-- comm.crm.Product.Product -->
+    </classes>
+  </test> <!-- Testrunner2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
